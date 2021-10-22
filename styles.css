@@ -14,7 +14,7 @@ body {
 h1{
     color: blueviolet;
     float: left;
-   
+    padding-left: 300px;
 }
 
 ul{
@@ -27,14 +27,61 @@ li a{
     padding: 10px;
 }
 .overview-hero{
-    padding-bottom: 200px;
-    padding-top: 20px;
-    background-color: cornflowerblue;
+    padding-bottom: 170px;
+    padding-top:20px;
+    background-color: rgb(216, 222, 233);
+    margin-right: 50px;
+    margin-left: 50px;
 }
 img{
     border-radius: 50%;
     float:left;
+    height: 250px;
+    width: 250px;
+    padding-right: 20px;
 }
 .overview-hero-text{
     text-align:left;
+}
+.cards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.testing{
+    background-color: rgb(110, 109, 109);
+    padding-top: 50px;
+    padding-bottom: 175px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.testing-desciption{
+    float:left;
+}
+.cta{
+    float: right;
+}
+.article-body{
+    padding: 50px;
+}
+.stories{
+    margin-top: 100px;
+}
+.newsletter{
+    background-color: rgb(52, 211, 137);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.form-group{
+    float:left;
+    padding-left: 100px;
+
+}
+footer{
+    margin-top: 0px;
+    background-color: rgb(140, 146, 146);
+    margin-left: 50px;
+    margin-right: 50px;
 }
